@@ -3,13 +3,15 @@
 
 Like a pirate's treasure booty, not the dirty kind of booty.  
 
+## What it does
+
 Dynamically cache routes in express!
 
 ```js
 npm install booty
 ```
 
-## How to Use
+## How to use
 
 ```
 cacheRoute = require('booty')
