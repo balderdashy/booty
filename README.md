@@ -8,7 +8,7 @@ Like a pirate's treasure booty, not the dirty kind of booty.
 Dynamically cache routes in express!
 
 ```js
-npm install "git+https://github.com/balderdashy/booty.git"
+npm install "git://github.com/balderdashy/booty.git"
 ```
 
 ## How to use
