@@ -1,0 +1,9 @@
+{
+    "name": "booty",
+    "version": "0.0.1",
+    "dependencies": {
+        "coffee-script": "1.4.0",
+        "underscore": "1.4.3"
+    },
+    "main": "switch.js"
+}
