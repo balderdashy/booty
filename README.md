@@ -13,7 +13,7 @@ npm install "git://github.com/balderdashy/booty.git"
 
 ## How to use with Express
 
-```
+```js
 cacheRoute = require('booty')
  
 app.get('/', cacheRoute(60*60), function(req, res) {
