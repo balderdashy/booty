@@ -11,7 +11,7 @@ Dynamically cache routes in express!
 npm install "git://github.com/balderdashy/booty.git"
 ```
 
-## How to use
+## How to use with Express
 
 ```
 cacheRoute = require('booty')
@@ -19,4 +19,16 @@ cacheRoute = require('booty')
 app.get('/', cacheRoute(60*60), function(req, res) {
     res.send('This route is now cached for 3600 seconds!')
 })
+```
+
+## How to use with Sails
+
+```js
+cacheRoute = require('booty')
+
+var Controller = {
+    route: cacheRoute(60*60)(function(req, res) {
+        res.send('This route is now cached for 3600 seconds!')
+    })
+}
 ```
