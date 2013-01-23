@@ -1,8 +1,27 @@
 {
-    "name": "booty",
-    "version": "0.0.1",
-    "dependencies": {
-        "coffee-script": "1.4.0"
-    },
-    "main": "switch.js"
+  "name": "booty",
+  "version": "0.0.1",
+  "dependencies": {
+    "coffee-script": "1.4.0"
+  },
+  "main": "switch.js",
+  "readmeFilename": "README.md",
+  "gitHead": "b9bd0b79bd72eef29b5642e2621a6a6b42114ee9",
+  "description": "Dead sexy URL caching utility for Express/Connect",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/balderdashy/booty.git"
+  },
+  "keywords": [
+    "express",
+    "connect",
+    "cache",
+    "sails"
+  ],
+  "author": "Brad Carleton",
+  "copyright": "2013 Brad Carleton & Balderdash Co.",
+  "license": "MIT"
 }
