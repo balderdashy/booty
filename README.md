@@ -1,20 +1,19 @@
-
 # booty
 
-Like a pirate's treasure booty, not the dirty kind of booty.  
+> Like a pirate's booty, not the dirty kind of booty.  
 
 ## What it does
 
 Dynamically cache routes in express!
 
 ```js
-npm install "git://github.com/balderdashy/booty.git"
+npm install booty-cache
 ```
 
 ## How to use with Express
 
 ```js
-cacheRoute = require('booty')
+var cacheRoute = require('booty-cache')
  
 app.get('/', cacheRoute(60*60), function(req, res) {
     res.send('This route is now cached for 3600 seconds!')
@@ -24,7 +23,7 @@ app.get('/', cacheRoute(60*60), function(req, res) {
 ## How to use with Sails
 
 ```js
-cacheRoute = require('booty')
+var cacheRoute = require('booty-cache')
 
 var Controller = {
     route: cacheRoute(60*60)(function(req, res) {
