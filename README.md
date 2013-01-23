@@ -1,5 +1,7 @@
 # booty
 
+Dead-sexy caching for Connect/Express.
+
 > Like a pirate's booty, not the dirty kind of booty.  
 
 ## What it does
