@@ -25,13 +25,21 @@ app.get('/', cacheRoute(60*60), function(req, res) {
 ## How to use with Sails
 
 ```js
-var cacheRoute = require('booty-cache')
 
-var Controller = {
-    route: cacheRoute(60*60)(function(req, res) {
-        res.send('This route is now cached for 3600 seconds!')
+// /config/routes.js
+
+var cache = require('booty-cache')
+
+module.exports.routes = {
+ 
+    // This route is now cached for 3600 seconds!
+    '/foo/bar': cache(60*60)({
+      controller: 'foo',
+      action: 'bar'
     })
-}
+};
+
+// You can also use booty in your controllers directly
 ```
 
 ![icon_circlelightbulb@2x.png](http://i.imgur.com/eOFXn.png)  
